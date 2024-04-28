@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ワークスペース">
+      <UniqueIdentifier>{403e966d-8d35-4730-ae7f-666cbec02f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene">
+      <UniqueIdentifier>{b27a7602-5919-433c-aa92-a7aaad9ff2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\MyLib">
+      <UniqueIdentifier>{2278db66-ea0f-44db-8bb5-57d16cad718d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\General">
+      <UniqueIdentifier>{4af3340b-a55a-4fb9-8722-9829f7b1bd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game">
+      <UniqueIdentifier>{0974371b-c6d0-4561-b52f-ae62717cd394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Title">
+      <UniqueIdentifier>{627464e4-3475-49a4-92c5-5d7b8d8497c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager">
+      <UniqueIdentifier>{057fbe8c-6dc0-4b0e-b21d-f76676b410c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility">
+      <UniqueIdentifier>{7e6fe334-0b98-4965-966d-399e07fd039b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\部隊キャラクター管理">
+      <UniqueIdentifier>{6e632451-5895-4a89-8692-f644d546156c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\ユニット系">
+      <UniqueIdentifier>{2c807e06-e199-493b-a76b-58e6e8477af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\ユニット系\ユニット移動管理">
+      <UniqueIdentifier>{f2a50c01-574a-426c-865e-88391afb8794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\ユニット系\ユニット情報">
+      <UniqueIdentifier>{48f6ca21-1dda-4c22-a93d-34fdfdc11c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\アイテム情報管理">
+      <UniqueIdentifier>{1f72f837-6b02-4205-a9b6-0fc960cee3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\A%2a経路探索">
+      <UniqueIdentifier>{20dc4525-ee74-4639-8ef8-cc90ceeaba07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\世界情報管理">
+      <UniqueIdentifier>{22b705be-2140-481b-83d0-f94c637726c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\マップ情報管理">
+      <UniqueIdentifier>{352df240-75a3-421e-b550-aea1e5fcf757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\勢力">
+      <UniqueIdentifier>{91c8f8c2-9640-417f-b2c3-c2ba8d3edb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\セーブ・ロード">
+      <UniqueIdentifier>{1a0d2544-62ab-486c-8516-afa530eb9544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物">
+      <UniqueIdentifier>{a9e57c9d-b677-48bf-9161-96f6fa803f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Abstract">
+      <UniqueIdentifier>{6232e494-82a7-4ba4-8543-646cbcf684c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Abstract\Industries">
+      <UniqueIdentifier>{f48c4a6d-ac87-4080-981d-d715b205f45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Abstract\Towny">
+      <UniqueIdentifier>{3343bc25-6fcf-4fe8-a60b-e31e29f35baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Abstract\Base">
+      <UniqueIdentifier>{61c9faaa-3656-4ab0-82c4-1644fcd69e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived">
+      <UniqueIdentifier>{801b45b4-8550-4538-907c-c1ef320f4fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived\Farm">
+      <UniqueIdentifier>{d1119597-bc2b-4184-8647-53cbc17a9985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived\Village">
+      <UniqueIdentifier>{1524ab96-658c-4d99-b6bf-abe854b47e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived\Shop">
+      <UniqueIdentifier>{0fcab820-880e-4a86-99f9-4e6971eee643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived\Factory">
+      <UniqueIdentifier>{3abcd801-878a-48d5-906a-a6a8a3bdb3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\建物\Derived\Camp">
+      <UniqueIdentifier>{31fdda86-f0ec-4db8-b7a0-1e5c0603b464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース">
+      <UniqueIdentifier>{10fd2f99-cbf6-4b2c-a9ef-fb9b360d2ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived">
+      <UniqueIdentifier>{1a0bb4b2-0020-4f1c-85b7-4d62a79ae1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\ActionSelector">
+      <UniqueIdentifier>{9444ea59-de18-4bdb-872e-2780027f70b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\ChipSelect">
+      <UniqueIdentifier>{aaff39c6-395c-435f-a91f-8af5e8abda4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Inventory">
+      <UniqueIdentifier>{ca4c6384-b975-484e-a330-52490e826654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Build">
+      <UniqueIdentifier>{45b4bb94-694e-453a-8c4a-7b91363e3643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Demolition">
+      <UniqueIdentifier>{229d844b-b209-457d-bfdb-d82e486f7367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Shopping">
+      <UniqueIdentifier>{29120024-0bb1-404e-b548-296b7803567f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Move">
+      <UniqueIdentifier>{aa2502da-dd72-4e9f-882f-1bf619d17b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Pose">
+      <UniqueIdentifier>{e169b52d-efaf-46b6-a3f8-78be6c193889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Manager\インターフェース\Derived\Start">
+      <UniqueIdentifier>{419ebd35-928f-4f2f-80cd-280bf9bbd9c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\UI管理">
+      <UniqueIdentifier>{996b3171-503c-4f94-9d2b-a85865acea37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\UI管理\ボタン">
+      <UniqueIdentifier>{c3d2e4ed-e83f-4442-906d-26909e8a4ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\UI管理\スライダー">
+      <UniqueIdentifier>{ee2fe848-e2d4-4074-9eef-db4d590e84c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\UI管理\ログ">
+      <UniqueIdentifier>{e78b99c4-640e-4c0c-9999-34c4b9d2be89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\Scene\Game\Utility\UI管理\通知">
+      <UniqueIdentifier>{14b2c84a-1319-48a9-b18c-970f0fc28e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\リソース管理">
+      <UniqueIdentifier>{f0baf940-7984-4121-a0b7-babea053152f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\MyLib.h">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Singleton.h">
+      <Filter>ワークスペース\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Define.h">
+      <Filter>ワークスペース\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\SceneManager.h">
+      <Filter>ワークスペース\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Title.h">
+      <Filter>ワークスペース\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Game.h">
+      <Filter>ワークスペース\Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\BaseScene.h">
+      <Filter>ワークスペース\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ResourceManager.h">
+      <Filter>ワークスペース\リソース管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MainSystem.h">
+      <Filter>ワークスペース</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\WorldManager.h">
+      <Filter>ワークスペース\Scene\Game\Manager\世界情報管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\InterfaceManager.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\UserInterface.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MapManager.h">
+      <Filter>ワークスペース\Scene\Game\Manager\マップ情報管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\BuildingManager.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Farm.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Farm</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ActionSelector.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\ActionSelector</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ChipSelect.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\ChipSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Building.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Item.h">
+      <Filter>ワークスペース\Scene\Game\Utility\アイテム情報管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Inventory.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Village.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Village</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Shop.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\ActionButton.h">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\ボタン</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Demolition.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Demolition</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\DataManager.h">
+      <Filter>ワークスペース\Scene\Game\Manager\セーブ・ロード</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Build.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Build</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Factory.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Shopping.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\MessageBox.h">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\通知</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Astar.h">
+      <Filter>ワークスペース\Scene\Game\Utility\A%2a経路探索</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\LogManager.h">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\ログ</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\UnitMovement.h">
+      <Filter>ワークスペース\Scene\Game\Utility\ユニット系\ユニット移動管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Faction.h">
+      <Filter>ワークスペース\Scene\Game\Manager\勢力</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Resident.h">
+      <Filter>ワークスペース\Scene\Game\Utility\部隊キャラクター管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Pose.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Pose</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Start.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Move.h">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Unit.h">
+      <Filter>ワークスペース\Scene\Game\Utility\ユニット系\ユニット情報</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Camp.h">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Slider.h">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\スライダー</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scripts\MyLib\General.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\2D.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\3D.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\Fps.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\Keyboard.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\Mouse.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MyLib\Pad.cpp">
+      <Filter>ワークスペース\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\SceneManager.cpp">
+      <Filter>ワークスペース\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Game.cpp">
+      <Filter>ワークスペース\Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Main.cpp">
+      <Filter>ワークスペース</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Title.cpp">
+      <Filter>ワークスペース\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ResourceManager.cpp">
+      <Filter>ワークスペース\リソース管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MainSystem.cpp">
+      <Filter>ワークスペース</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\WorldManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\世界情報管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\InterfaceManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MapManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\マップ情報管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\BuildingManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Farm.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Farm</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ChipSelect.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\ChipSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ActionSelector.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\ActionSelector</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Inventory.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Industries.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Abstract\Industries</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\UserInterface.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Building.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Village.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Village</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Shop.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\ActionButton.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\ボタン</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Demolition.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Demolition</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\DataManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\セーブ・ロード</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Build.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Build</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Factory.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Towny.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Abstract\Towny</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Shopping.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\MessageBox.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\通知</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Astar.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\A%2a経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\UnitMovement.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\ユニット系\ユニット移動管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Faction.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\勢力</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Resident.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\部隊キャラクター管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Pose.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Pose</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Start.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\LogManager.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\ログ</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Move.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\インターフェース\Derived\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Unit.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\ユニット系\ユニット情報</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Camp.cpp">
+      <Filter>ワークスペース\Scene\Game\Manager\建物\Derived\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Slider.cpp">
+      <Filter>ワークスペース\Scene\Game\Utility\UI管理\スライダー</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Log.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+    <Text Include="Readme.txt">
+      <Filter>リソース ファイル</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

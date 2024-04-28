@@ -1,0 +1,9 @@
+ソリューション名 : DxLib_SolutionTemplate
+
+MyLib
+自作の汎用関数ライブラリ
+
+内容物
+Setup.bat
+	実行するとリソースとReleaseのexeを含めたフォルダを直下に生成する
+	※Releaseでビルドする必要がある

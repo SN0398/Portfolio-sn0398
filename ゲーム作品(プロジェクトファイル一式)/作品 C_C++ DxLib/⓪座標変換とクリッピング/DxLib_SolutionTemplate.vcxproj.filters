@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ワークスペース">
+      <UniqueIdentifier>{49e20d95-4b57-4621-9ac9-0db0c418d013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース">
+      <UniqueIdentifier>{b84c1c1b-c02c-48f1-b44f-fb707cac915c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\01.Main">
+      <UniqueIdentifier>{afec172f-b315-41f8-891e-9216a784c539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\04.Scene">
+      <UniqueIdentifier>{8d564d05-6099-4748-a9db-ec241f2cdda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component">
+      <UniqueIdentifier>{6b1ac650-484b-4b40-a63f-b0e5bc4e0acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\02.General">
+      <UniqueIdentifier>{0188370b-38bd-43cb-b68f-e773d7697dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\02.General\Base">
+      <UniqueIdentifier>{80775a96-0d24-4541-9c4a-fb10f78825fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\02.General\Config">
+      <UniqueIdentifier>{c392155f-7eda-4771-b024-67cb48298e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib">
+      <UniqueIdentifier>{0f9a76b2-1bf9-412a-8072-c96d36b655fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\03.Resource">
+      <UniqueIdentifier>{7b9812b1-0149-45e4-b661-140e4faf0f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\04.Scene\Game">
+      <UniqueIdentifier>{eba60283-f60a-451c-b7fc-d271e5c43ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source">
+      <UniqueIdentifier>{c677ad9b-8f6a-4152-ac44-fc7c10ed1eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Math">
+      <UniqueIdentifier>{172fbd60-306d-4a45-9df7-a30cac46b27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\System">
+      <UniqueIdentifier>{98c70aa5-95c8-4f79-a62b-d49c67d41157}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Frame">
+      <UniqueIdentifier>{ec829bd5-cf80-40dc-821e-a0b3e76f9710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Input">
+      <UniqueIdentifier>{69455368-af12-4058-8246-ad3063d8f5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Input\Keyboard">
+      <UniqueIdentifier>{4381e50e-aef4-4bce-adec-27d5d52e9355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Input\Pad">
+      <UniqueIdentifier>{802ad9c1-ebcf-4eed-99da-b9c555e8be79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Input\Mouse">
+      <UniqueIdentifier>{6b685f3d-99f1-401e-9a3e-12bbf12723e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\AI">
+      <UniqueIdentifier>{b5197f43-b16f-43d4-ae12-bfe3e3ecf975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\02.General\GameProcesses">
+      <UniqueIdentifier>{55faa2c3-d304-428c-9dec-fff08cdac3f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Geometry">
+      <UniqueIdentifier>{24176430-7eb0-4491-9e21-2f4be4fffa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Geometry\Matrix">
+      <UniqueIdentifier>{d4eac89f-dc69-4169-8c9e-6bf9ffbcf666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Utilities">
+      <UniqueIdentifier>{c72b845e-1a96-4b4b-95d8-cab69e365528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Geometry\Vector">
+      <UniqueIdentifier>{648c9116-f8b0-444d-a386-beca62dab5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject">
+      <UniqueIdentifier>{9c2e00b1-946e-4b95-8055-5c62ae78d1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\Component">
+      <UniqueIdentifier>{bb1db5ce-04d1-463e-86b7-b48d46355529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\Component\MeshInterface">
+      <UniqueIdentifier>{13dae8ce-5a9a-49f3-a0a3-9bc837dc93b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject\3DModel">
+      <UniqueIdentifier>{2aca0e4d-f1a6-4d3f-821e-af1bd2890691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject\3DModel\Plane">
+      <UniqueIdentifier>{616ceaaa-246e-431c-8e80-05aec8383073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject\3DModel\Cube">
+      <UniqueIdentifier>{814ce7a6-0a2e-44b6-9e89-0bcbcc0cf79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\Component\PolygonClipping">
+      <UniqueIdentifier>{87ad7574-bfca-41f1-ab34-73ad4441a620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject\ControlPanel">
+      <UniqueIdentifier>{ffe39c02-bbf5-46c4-946f-340925e4847c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Interface">
+      <UniqueIdentifier>{aeb25f10-eec7-4187-8d54-10540447ca71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Interface\Slider">
+      <UniqueIdentifier>{733536a6-bcbf-477d-ad9c-93f732e29667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Interface\Button">
+      <UniqueIdentifier>{3db32b38-8ece-49ad-898b-70f2efb8aabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\2D">
+      <UniqueIdentifier>{a30956c6-e9af-4da1-9ea6-352549613ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib\Source\Math\Numerics">
+      <UniqueIdentifier>{eeee3f81-840a-45bf-9091-59077a5d561b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\GameObject\RendererInterface">
+      <UniqueIdentifier>{0ff02499-3934-49c1-95a9-eb847a90a0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ワークスペース\05.Component\Component\Renderer">
+      <UniqueIdentifier>{4498981f-47ba-423f-b668-a5a34a2eaf9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource.aps">
+      <Filter>リソース</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ICON.ico">
+      <Filter>リソース</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Memo.txt">
+      <Filter>リソース</Filter>
+    </Text>
+    <Text Include="Readme.txt">
+      <Filter>リソース</Filter>
+    </Text>
+    <Text Include="How To Use.txt">
+      <Filter>リソース</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scripts\Main\Main.cpp">
+      <Filter>ワークスペース\01.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Main\MainSystem.cpp">
+      <Filter>ワークスペース\01.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Resource\ResourceManager.cpp">
+      <Filter>ワークスペース\03.Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\System\System.cpp">
+      <Filter>MyLib\Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Frame\Fps.cpp">
+      <Filter>MyLib\Source\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\AI\AI.cpp">
+      <Filter>MyLib\Source\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\System\GameProcess.cpp">
+      <Filter>ワークスペース\02.General\GameProcesses</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Scene\Game\Game.cpp">
+      <Filter>ワークスペース\04.Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Geometry\Transform\Transform.cpp">
+      <Filter>MyLib\Source\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Geometry\Matrix\Matrix.cpp">
+      <Filter>MyLib\Source\Geometry\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Input\Keyboard\Keyboard.cpp">
+      <Filter>MyLib\Source\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Input\Pad\Pad.cpp">
+      <Filter>MyLib\Source\Input\Pad</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Input\Mouse\Mouse.cpp">
+      <Filter>MyLib\Source\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Utilities\Utilities.cpp">
+      <Filter>MyLib\Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\GameObject.cpp">
+      <Filter>ワークスペース\05.Component\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\Geometry\Vector\Vector.cpp">
+      <Filter>MyLib\Source\Geometry\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Component\MeshInterface\MeshInterface.cpp">
+      <Filter>ワークスペース\05.Component\Component\MeshInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\3DModel\3DModel.cpp">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\3DModel\Plane\Plane.cpp">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\3DModel\Cube\Cube.cpp">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Component\PolygonClipping\Clipping.cpp">
+      <Filter>ワークスペース\05.Component\Component\PolygonClipping</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\ControlPanel\ControlPanel.cpp">
+      <Filter>ワークスペース\05.Component\GameObject\ControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\UserInterface\Button\Button.cpp">
+      <Filter>MyLib\Source\Interface\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\UserInterface\Slider\Slider.cpp">
+      <Filter>MyLib\Source\Interface\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib\MyLibSource\2D\2D.cpp">
+      <Filter>MyLib\Source\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\GameObject\RendererInterface\RendererInterface.cpp">
+      <Filter>ワークスペース\05.Component\GameObject\RendererInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripts\Component\Renderer\Renderer.cpp">
+      <Filter>ワークスペース\05.Component\Component\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scripts\Main\MainSystem.h">
+      <Filter>ワークスペース\01.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Base\ManagerAbstract.h">
+      <Filter>ワークスペース\02.General\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Base\Singleton.h">
+      <Filter>ワークスペース\02.General\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Config\Console.h">
+      <Filter>ワークスペース\02.General\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Config\Define.h">
+      <Filter>ワークスペース\02.General\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Resource\ResourceManager.h">
+      <Filter>ワークスペース\03.Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLib.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\System\System.h">
+      <Filter>MyLib\Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Scene\SceneManager.h">
+      <Filter>ワークスペース\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Frame\Fps.h">
+      <Filter>MyLib\Source\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Input\Input.h">
+      <Filter>MyLib\Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\AI\AI.h">
+      <Filter>MyLib\Source\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\System\GameProcess.h">
+      <Filter>ワークスペース\02.General\GameProcesses</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Scene\Game\Game.h">
+      <Filter>ワークスペース\04.Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Geometry\Transform\Transform.h">
+      <Filter>MyLib\Source\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Geometry\Matrix\Matrix.h">
+      <Filter>MyLib\Source\Geometry\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Input\Keyboard\Keyboard.h">
+      <Filter>MyLib\Source\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Input\Pad\Pad.h">
+      <Filter>MyLib\Source\Input\Pad</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Input\Mouse\Mouse.h">
+      <Filter>MyLib\Source\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Utilities\Utilities.h">
+      <Filter>MyLib\Source\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Scene\BaseScene.h">
+      <Filter>ワークスペース\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Base\ComponentAbstract.h">
+      <Filter>ワークスペース\02.General\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Math\Numerics\Numerics.h">
+      <Filter>MyLib\Source\Math\Numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\GameObject.h">
+      <Filter>ワークスペース\05.Component\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Component\Component.h">
+      <Filter>ワークスペース\05.Component\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\Geometry\Vector\Vector.h">
+      <Filter>MyLib\Source\Geometry\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Component\MeshInterface\MeshInterface.h">
+      <Filter>ワークスペース\05.Component\Component\MeshInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\3DModel\3DModel.h">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\3DModel\Plane\Plane.h">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\3DModel\Cube\Cube.h">
+      <Filter>ワークスペース\05.Component\GameObject\3DModel\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Component\PolygonClipping\Clipping.h">
+      <Filter>ワークスペース\05.Component\Component\PolygonClipping</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\ControlPanel\ControlPanel.h">
+      <Filter>ワークスペース\05.Component\GameObject\ControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\UserInterface\Button\Button.h">
+      <Filter>MyLib\Source\Interface\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\UserInterface\Slider\Slider.h">
+      <Filter>MyLib\Source\Interface\Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib\MyLibSource\2D\2D.h">
+      <Filter>MyLib\Source\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\GameObject\RendererInterface\RendererInterface.h">
+      <Filter>ワークスペース\05.Component\GameObject\RendererInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripts\Component\Renderer\Renderer.h">
+      <Filter>ワークスペース\05.Component\Component\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
